@@ -5,9 +5,9 @@ require_once('lib/custom-functions.php');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Mitch's Sample Tables</title>
+        <title>SQL Statements</title>
         <meta charset="utf-8">
-        <meta name="Mitch Brooks" content="assignment1.0">
+        <meta name="Mitch Brooks" content="assignment2.0">
         <meta name="sample tables" content="sample database of uvm courses">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@ require_once('lib/custom-functions.php');
         <![endif]-->
 
         <link rel="stylesheet" href="css/base.css" type="text/css" media="screen">
-
+		<link rel="stylesheet" href="css/select.css" type="text/css" media="screen">
         <?php
         $debug = false;
 
@@ -128,6 +128,6 @@ require_once('lib/custom-functions.php');
     <!-- **********************     Body section      ********************** -->
     <?php
     print '<body id="' . $path_parts['filename'] . '">';
-    include "header.php";
-    include "nav.php";
+    
+    
     ?>

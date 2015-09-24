@@ -25,6 +25,7 @@ function securityCheck($path_parts, $yourURL, $form = false) {
 	$whiteListPages[] = "footer.php";
 	$whiteListPages[] = "nav.php";
 	$whiteListPages[] = "header.php";
+	$whiteListPages[] = "select.php";
 	
 
     //add all the folders to this array
@@ -35,7 +36,7 @@ function securityCheck($path_parts, $yourURL, $form = false) {
 	$whiteListFolders[] = "/cs148develop/lib";
     
     $whiteListFolders[] = "/cs148develop/assignment1.0";
-    $whiteListFolders[] = "/cs148develop/assignment1.0";
+    $whiteListFolders[] = "/cs148develop/assignment2.0";
 
     // Check for valid page name
     if (!in_array($path_parts['basename'], $whiteListPages)) {

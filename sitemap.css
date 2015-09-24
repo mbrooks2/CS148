@@ -1,0 +1,27 @@
+#wrapper {
+background-color:#445B51;
+color: #FFFFFF;
+}
+
+h1 ul {
+font-family:"Times New Roman", times, serif; 
+}
+
+ul {
+font-size: 2em;
+border-bottom: medium solid #000;
+padding: 20px;
+}
+
+ul li{
+padding: 10px;
+ }
+
+a:link {color: #91E3F4;}  
+
+a:visited, a:hover {color: #FFCACA;}
+
+a:link, a:visited, a:hover {
+font-family: 'Quintessential', cursive;
+}
+
