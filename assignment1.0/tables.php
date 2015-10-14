@@ -103,9 +103,8 @@ if ($tableName != "") {
     print '</tr>';
 
     //now print out each record
+    $query = 'SELECT * FROM ' . $tableName;
     $info2 = $thisDatabaseReader->select($query, "", 0, 0, 0, 0, false, false);
-    $query = 'TEST pmk from tbl teachers * FROM ' . $tableName;
-   
 
     $highlight = 0; // used to highlight alternate rows
     foreach ($info2 as $rec) {
